@@ -1,0 +1,25 @@
+
+table {
+    border-collapse: collapse; 
+    width: 100%; 
+    margin: 15px 0; 
+    background-color: #eee; 
+    margin-top: 20px;
+  }
+  
+  th, td {
+    padding: 10px 15px; 
+    border: 1px solid #ddd; 
+  }
+  
+  tr:hover {
+    background-color: yellow; 
+  }
+
+  button {
+    margin-bottom: 20px; 
+    float: right;
+  }
+  
+  
+  
