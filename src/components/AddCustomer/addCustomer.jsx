@@ -101,13 +101,8 @@ const AddCustomer = () => {
           .then((response) => {
             if (response.ok) {
               console.log('Customer editing successfully');
-              // Update the existing row in the state
-              setCustomers((prevCustomers) => {
-                const updatedCustomers = prevCustomers.map((row) =>
-                    row.id === customerData.id ? { ...row, ...customerData } : row
-                );
-                return updatedCustomers;
-              });
+              //TODO Update the existing row in the state
+
               history.push('/');
             } else {
               throw new Error('Failed to edit customer');
